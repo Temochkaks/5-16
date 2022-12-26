@@ -46,3 +46,15 @@ alter table usr add primary key(id);
 
 
 
+/* 11-12 labs
+
+alter table university_member add constraint FK_univmem_usr foreign key (user_id) references usr;
+alter table university_member add constraint FK_univermem_departament foreign key (department_id) references department;
+alter table university_member add constraint FK_univermem_position foreign key (position_id) references position;
+alter table group_member add constraint FK_groupmem_univermem foreign key (university_member_id) references university_member;
+alter table group_member add constraint FK_groupmem_grp foreign key (group_id) references grp;
+*/
+
+
+
+
