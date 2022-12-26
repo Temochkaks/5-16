@@ -58,6 +58,19 @@ course integer not null,
 primary key (id));
 */
 
+/* 13-14 labs
+
+create table address (
+id integer not null,
+user_id integer not null,
+zip_code varchar(10),
+city varchar(30),
+street varchar(50),
+building varchar(10),
+flat varchar(10),
+primary key (id));
+
+*/
 
 
  
